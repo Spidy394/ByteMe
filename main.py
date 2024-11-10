@@ -16,6 +16,7 @@ class MyClient(discord.Client):
         print("ByteMe in now online")
     
     from funx.hello import on_message
+    from funx.pong import on_message
 
 intents = discord.Intents.default()
 intents.message_content = True
